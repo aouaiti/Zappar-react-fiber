@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <ZapparCanvas>
         <ZapparCamera />
-        <ImageTracker targetImage={"data/hiro.patt"}>
+        <ImageTracker targetImage={"target.zpt"}>
           <mesh>
             <boxGeometry />
             <meshBasicMaterial />
